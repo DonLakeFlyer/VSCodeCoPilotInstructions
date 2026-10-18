@@ -11,6 +11,7 @@ and `~/.copilot/instructions` is a symlink to the repo's `instructions/` folder.
 ```text
 instructions/                       # symlink target for ~/.copilot/instructions
   my-preferences.instructions.md    # feature workflow, commit, PR, and code style preferences
+  test-policy.instructions.md       # test levels, reproduce-first bug fixes, coverage reporting
 ```
 
 Only the `instructions/` folder is linked, so the rest of the repo (this README,
