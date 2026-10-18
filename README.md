@@ -10,7 +10,7 @@ and `~/.copilot/instructions` is a symlink to the repo's `instructions/` folder.
 
 ```text
 instructions/                       # symlink target for ~/.copilot/instructions
-  my-preferences.instructions.md    # commit, PR, and code style preferences
+  my-preferences.instructions.md    # feature workflow, commit, PR, and code style preferences
 ```
 
 Only the `instructions/` folder is linked, so the rest of the repo (this README,
